@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'AFWeather.{h,m}'
 
+  s.screenshot    = 'https://raw.github.com/AlvaroFranco/AFWeather/master/preview.png'
+
   s.requires_arc = true
 
 end
