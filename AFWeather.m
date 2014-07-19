@@ -157,7 +157,7 @@
                 break;
                 
             case AFWeatherAPIForecast:
-                request = [NSURLRequest requestWithURL:[NSURL URLWithString:[_baseURL stringByAppendingString:[NSString stringWithFormat:@"/%@,%@",[[lat stringByReplacingOccurrencesOfString:@"," withString:@"."] encodeForURLWithEncoding:NSUTF8StringEncoding],[[lon stringByReplacingOccurrencesOfString:@"," withString:@"."] encodeForURLWithEncoding:NSUTF8StringEncoding]]]]];
+                request = [NSURLRequest requestWithURL:[NSURL URLWithString:[_baseURL stringByAppendingString:[NSString stringWithFormat:@"/%@,%@?units=auto",[[lat stringByReplacingOccurrencesOfString:@"," withString:@"."] encodeForURLWithEncoding:NSUTF8StringEncoding],[[lon stringByReplacingOccurrencesOfString:@"," withString:@"."] encodeForURLWithEncoding:NSUTF8StringEncoding]]]]];
                 break;
                 
             case AFWeatherAPITest:
