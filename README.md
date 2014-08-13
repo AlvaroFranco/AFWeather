@@ -33,7 +33,7 @@ If you don't use CocoaPods, you will have to import these files into your projec
 
 ##Usage
 
-First of all, make sure that you have imported the main class into the class where you are going to play audio.
+First of all, make sure that you have imported the main class into the class where you are going to get the weather information.
 
 	#import "AFWeather.h"
 	
